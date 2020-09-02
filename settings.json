@@ -1,0 +1,161 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.github": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/node_modules": true,
+        "**/coverage": true,
+        "**/.idea": true,
+        "**/.vscode": true,
+        "**/tmp": true,
+        "**/.scannerwork": true,
+        "**/.DS_Store": true
+    },
+
+    // #############    EDITOR      #############
+    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Iosevka",
+    
+    // #############    WORKBENCH   #############
+    "workbench.fontAliasing": "antialiased",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.list.keyboardNavigation": "simple",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.settings.editor": "json",
+     
+    
+    // #############    LANGUAGES   #############
+    "go.formatTool": "gofmt",
+    "go.vetOnSave": "package",
+    "go.autocompleteUnimportedPackages": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": false,
+    },
+    "[json]": {
+        "editor.formatOnSave": false,
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    
+    // #############    EXTENSIONS  #############
+    "extensions.ignoreRecommendations": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    
+    // #############      VIM       #############
+    "vim.leader": ",",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-d>": false,
+        "<C-n>": false,
+        "<C-]>": false,
+        "<C-[>": false
+    },
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.surround": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": false,
+    "vim.insertModeKeyBindings": [
+        // Exit insert mode
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "u"
+            ],
+            "after": [
+                "g",
+                "~",
+                "i",
+                "w"
+            ]
+        }
+    ],
+    
+    // ######## PRETTIER ########
+    "prettier.requireConfig": true,
+    "prettier.tabWidth": 4,
+    "window.zoomLevel": 1,
+    "jest.autoEnable": false,
+    "jest.runAllTestsFirst": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsnotes.defaultNotePath": "/Users/swojnar/notes",
+    "editor.accessibilityPageSize": 12,
+    "markdown.preview.fontSize": 13,
+    "rust.rustup": {
+        "toolchain": "stable-x86_64-apple-darwin",
+        "nightlyToolchain": "nightly-x86_64-apple-darwin"
+    },
+    "rust.mode": "rls",
+    "workbench.activityBar.visible": false,
+    "editor.fontSize": 12,
+    "debug.console.fontSize": 11,
+    "terminal.integrated.fontSize": 11,
+    "workbench.editor.tabSizing": "shrink",
+    "window.nativeFullScreen": false,
+    "workbench.statusBar.visible": false,
+    "gitlens.views.repositories.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    "problems.showCurrentInStatus": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.enableExperiments": false,
+    "update.mode": "manual",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [{
+            "scope": "punctuation.accessor",
+            "settings": {
+                // "foreground": "#e06c75"
+            }
+        }]
+    },
+    "go.useLanguageServer": true,
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
+}
