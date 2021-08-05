@@ -13,16 +13,18 @@
         "**/.scannerwork": true,
         "**/.DS_Store": true
     },
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
 
     // #############    EDITOR      #############
     "editor.fontLigatures": true,
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "alt",
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.renderWhitespace": "boundary",
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "Iosevka",
+    "editor.fontFamily": "Iosevka Curly",
     
     // #############    WORKBENCH   #############
     "workbench.fontAliasing": "antialiased",
@@ -61,7 +63,7 @@
         "editor.formatOnSave": true
     },
     "[typescript]": {
-        "editor.tabSize": 2,
+        "editor.tabSize": 4,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
@@ -116,8 +118,7 @@
     
     // ######## PRETTIER ########
     "prettier.requireConfig": true,
-    "prettier.tabWidth": 4,
-    "window.zoomLevel": 1,
+    "prettier.tabWidth": 2,
     "jest.autoEnable": false,
     "jest.runAllTestsFirst": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
@@ -137,7 +138,7 @@
     "terminal.integrated.fontSize": 11,
     "workbench.editor.tabSizing": "shrink",
     "window.nativeFullScreen": false,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "gitlens.views.repositories.enabled": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.tree.indent": 12,
@@ -157,5 +158,7 @@
         }]
     },
     "go.useLanguageServer": true,
-    "workbench.colorTheme": "Material Theme Darker High Contrast"
+    "workbench.colorTheme": "(Actual) Obsidian",
+    "terminal.integrated.inheritEnv": false,
+    "window.zoomLevel": 1
 }
